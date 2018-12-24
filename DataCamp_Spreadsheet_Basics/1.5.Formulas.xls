@@ -1,0 +1,21 @@
+Now that you're able to find your way inside a spreadsheet, it's time to introduce some essential functionality in Google Sheets: formulas.
+
+With formulas, you can make Google Sheets do calculations for you. That's right, formulas can make your life a whole lot easier.
+
+And they're easy: just think of it as using a calculator. Let's say you want to calculate 5 minus 3 on a calculator. You'd probably enter something like: 5, then -, 3 and finally you hit =. Well, in spreadsheets you just put the = in front: = 5 - 3, fill it in in a cell and let Google Sheets do the rest. You don't have to mind whitespace, as they're ignored.
+
+Remember, it's really important here to put the = in front.
+
+TASK
+Use formulas to change the following cells. Remember to start all of these formulas with a = sign, and follow it by what you want to calculate:
+
+In B2, add 29 to 121. You should use the + operator.
+In B3, subtract 25 from 125. You should use the - operator.
+In B4, multiply 65 by 3. You should use the * operator.
+In B5, divide 190 by 2. You should use the / operator.
+
+Name	Weight (g)	KCal	Expires on	Price
+Eggs	121	186	2018-01-21	$0.40
+Sugar	125	484	2020-01-01	$0.20
+Butter	65	466	2018-01-20	$2.00
+Flour	190	692	2018-09-01	$0.30

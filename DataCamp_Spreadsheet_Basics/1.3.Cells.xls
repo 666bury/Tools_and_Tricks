@@ -1,0 +1,17 @@
+If you're having a hard time telling apart rows from columns, a little trick that can help is to think of the spreadsheet as a theater, with the stage on the left. Your position relative to the stage is defined by a letter: A, B, C, etc. Your position within the row is defined with a number: 1, 2, 3, etc.
+
+Each indivisible rectangle you see in the spreadsheet is called a cell. Each cell has a value (like Flour) and a position. The position is defined by the combination of its column and its row. We call this combination a cell address.
+
+The address of a cell is defined by the column letter, followed by the row number. For example, the cell highlighted in the following image is B3: column B and row 3.
+
+
+TASK
+Change the calories of eggs to 200 Kcal. First, you should select the cell with address C2. Change the value of this cell to 200.
+Change the cost of butter to $2.50. First, you should select the cell with address E4. Change the value of this cell to $2.50.
+Reminder: hit the Enter key to finish editing the last cell before clicking 'Check Answer'
+
+Name	Weight (g)	KCal	Expires on	Price
+Eggs	121	186	2018-01-21	$0.40
+Sugar	125	484	2020-01-01	$0.20
+Butter	65	466	2018-01-20	$2.00
+Flour	190	692	2018-09-01	$0.30

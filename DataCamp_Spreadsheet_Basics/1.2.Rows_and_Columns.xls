@@ -1,0 +1,22 @@
+In spreadsheets, all data have locations. Although this seems obvious, it is a very different way of thinking about data compared to programming in R, Python, or SQL. One consequence is that you spend a lot of time worrying about columns and rows.
+
+The column is the vertical position of a value, while the row reflects its horizontal position. In spreadsheets, columns are defined with letters, starting with A. Rows are defined with numbers, starting at 1. You can find the column letters at the top and the row numbers on the left.
+
+Let's have a look at an example in our data. The energy provided by a 190 grams of flour, 692 KCal, is given in column C and row 5.
+
+Name	Weight (g)	KCal	Expires on	Price
+Eggs	121	186	2018-01-21	$0.40
+Sugar	125	484	2020-01-01	$0.20
+Butter	65	466	2018-01-20	$2.00
+Flour	190	692	2018-09-01	$0.30
+
+
+TASK
+
+Find the row with number 6 in the spreadsheet. In this row, fill in
+
+Baking powder in column A. Watch out, it's case sensitive.
+30 in column B and 10 in column C
+2018-12-31 in column D. Note that this is the Year-Month-Day notation.
+$0.10 in column E
+Watch out: the values are case sensitive. Click 'Check Answer' after you finished editing the last cell.  

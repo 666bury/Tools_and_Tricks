@@ -1,0 +1,19 @@
+Let's go one step further. In the previous exercises we talked about rows, columns, cells and their addresses. Often in spreadsheets, we'll talk about ranges.
+
+A range is a rectangular group of cells. We define ranges from the top left to the bottom right. A range is defined by two cell addresses, divided by a colon (:). The value left of : will be the address of the top left cell. The value on the right of : will be the bottom right.
+
+For example, A1:B2 will be the range that goes from A1 in the top left, to B2 in the bottom right. Like this:
+
+
+Ranges don't have to stretch over multiple columns or rows. They can be a single column or row.
+
+TASK
+In the range B2:C3, change the values to: 130, 200, 135, 500. These values are defined from top left to bottom right, left to right, top to bottom.
+In the range E4:E5 change the dollar amounts to: $2.50, $0.25. These values are defined from top to bottom.
+
+Name	Weight (g)	KCal	Expires on	Price
+Eggs	121	186	2018-01-21	$0.40
+Sugar	125	484	2020-01-01	$0.20
+Butter	65	466	2018-01-20	$2.00
+Flour	190	692	2018-09-01	$0.30
+
