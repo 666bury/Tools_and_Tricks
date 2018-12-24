@@ -1,0 +1,13 @@
+Google Sheets makes it really easy for you to work with percentages. To write a percentage, simply write the number followed by a percent sign, %. To figure out the percentage of a number, multiply that number by that percentage.
+
+An example: you previously entered all costs without taxes. Now you want to add a sales tax (also called value added tax or VAT) of 21%. In that case, the tax on butter would be = 2 * 21%.
+
+TASK
+Calculate a new column with the sales tax on the prices in the list. In F2:F5, on each row fill in the tax on the price of the item. Use a formula with * and a percentage: 21%. Don't worry about the $ sign just yet, we'll talk about that a bit more later in this chapter.
+Now that you calculated the sales tax on the price, add another column to calculate the total price. This is the sum of the price and the sales tax. Fill in the values in G2:G5.
+
+Name	Weight (g)	KCal	Expires on	Price	Sales tax	Total
+Eggs	121	186	2018-01-21	$0.40		
+Sugar	125	484	2020-01-01	$0.20		
+Butter	65	466	2018-01-20	$2.00		
+Flour	190	692	2018-09-01	$0.30		

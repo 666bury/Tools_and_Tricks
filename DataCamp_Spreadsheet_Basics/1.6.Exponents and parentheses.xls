@@ -1,0 +1,22 @@
+There's one more mathematical operator: the exponent. The exponent of a number says how many times to multiply the number by itself. For example: 5 exponent 4 means multiplying 5 by 5 by 5 by 5, or = 5 * 5 * 5 * 5. With an exponent you'd write this as = 5 ^ 4, reading "5 to the power 4".
+
+Formulas can also have parentheses, or round brackets: ( and ). Parentheses control the order operations are calculated in. Mathematical operations are executed in the following order:
+
+parentheses
+exponents
+multiplication and division
+addition and subtraction.
+For example: in = 1 + (2 * 3) ^ 4, Google Sheets first calculates 2 * 3 between the parentheses, then takes the result (6) to the power 4 and finally adds 1. The result is 1297.
+
+TASK
+
+In B2, change 121 with 11 to the power 2. You should use the ^ operator.
+In B3, change 125 with 1.25 times 10 to the power 2. You should combine the * and the ^ operator here.
+In B4, change 65 with 7 plus 2 to the power 2, and from this value subtract 16. Think about where to use parentheses, the result should be 65.
+
+
+Name	Weight (g)	KCal	Expires on	Price
+Eggs	121	186	2018-01-21	$0.40
+Sugar	125	484	2020-01-01	$0.20
+Butter	65	466	2018-01-20	$2.00
+Flour	190	692	2018-09-01	$0.30

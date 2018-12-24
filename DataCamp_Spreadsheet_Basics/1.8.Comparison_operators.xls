@@ -1,0 +1,19 @@
+In this exercise, you'll work with comparison operators. Comparison operators are used to check whether numbers are bigger, smaller, or the same size. For example, the less than operator checks that one number is less than another number. If you type the formula = 3 < 4, it will return TRUE, since 3 is less than 4. By contrast, the formula = 5 < 4 will return FALSE, since 5 isn't less than 4.
+
+Here's a full list of all comparison operators:
+
+<, >: smaller/greater than
+<=, >=: smaller/greater than or equal to
+=, <>: equal/not equal to
+Watch out, using the = operator can become somewhat confusing. For example in = 3 = 4, = has two meanings: it starts a formula first, and compares 3 to 4 the second time.
+
+TASK
+First of all, you need to find out which items are cheap. You can say items are cheap when they cost less than 1 dollar. Use < to fill in F2:F5, for each item check whether the price is smaller than 1. You can omit $ in your formulas for now.
+Second, add the values for the column named Energy dense. You can say an item is energy dense if the KCal per gram is greater than or equal to 3. Fill the results in in G2:G5.
+
+Name	Weight (g)	KCal	Expires on	Price	Cheap	Energy dense
+Eggs	121	186	2018-01-21	$0.40		
+Sugar	125	484	2020-01-01	$0.20		
+Butter	65	466	2018-01-20	$2.00		
+Flour	190	692	2018-09-01	$0.30		
+
