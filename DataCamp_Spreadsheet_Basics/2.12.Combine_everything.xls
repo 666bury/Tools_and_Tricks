@@ -1,0 +1,49 @@
+In this chapter we've covered the following concepts:
+
+relative references: references to values in cells, e.g. A1. The value changes when the referred cell changes.
+copying cells: dragging formulas to other cells will shift the relative references
+calculations with references: references can be used in calculations as if they were the value they refer to
+absolute references: references with columns and/or rows locked, e.g. $A$1. They don't change when copied.
+It's time to put all your referencing skills to work in the final exercise of this chapter.
+
+TASK
+Fill in D2:D12 with the amount by which the population will grow. Use the growth index in B14.
+Fill in the population density in E2:E12. This is the population per square kilometer.
+Fill in the density growth in F2:F12, which is the growth per square kilometer.
+Change the growth to 2.00% and watch the changes ripple through.
+
+Population	Land Area (km2)	Growth	Density (km2)	Density Growth
+1,409,517,397	9,326,410			
+1,339,180,127	2,973,190			
+324,459,463	9,147,593			
+263,991,379	1,811,569			
+209,288,278	8,460,415			
+197,015,955	881,912			
+190,886,311	910,768			
+164,669,751	130,168			
+143,989,754	16,377,742			
+129,163,276	1,943,945			
+7,550,262,101	148,940,000			
+				
+1.12%				
+
+
+
+
+
+
+SOLUTION
+Population	Land Area (km2)	Growth	Density (km2)	Density Growth
+1,409,517,397	9,326,410	28,190,348	151	3
+1,339,180,127	2,973,190	26,783,603	450	9
+324,459,463	9,147,593	6,489,189	35	1
+263,991,379	1,811,569	5,279,828	146	3
+209,288,278	8,460,415	4,185,766	25	0
+197,015,955	881,912	3,940,319	223	4
+190,886,311	910,768	3,817,726	210	4
+164,669,751	130,168	3,293,395	1,265	25
+143,989,754	16,377,742	2,879,795	9	0
+129,163,276	1,943,945	2,583,266	66	1
+7,550,262,101	148,940,000	151,005,242	51	1
+				
+2.00%				

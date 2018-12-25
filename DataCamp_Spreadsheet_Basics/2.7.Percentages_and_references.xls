@@ -1,0 +1,38 @@
+You can use references in any kind of calculations that you saw in the previous chapter.
+
+For example, you can take percentages of values you refer to. If A1 has the value 200 and you fill in = A1 * 1% in another cell, it will result in 2.
+
+You are not limited to use 1 reference, you can do calculations with multiple references as well. For example, if A1 holds 2 and B1 holds 3, = A1 * B1 will be equal to 6.
+
+
+TASK
+In D2:D11, fill in the growth of the population in the past year. You can assume that in each country, the population grew by 1.12% - which is the global growth rate. Use those copy skills to speed up the process.
+In E2:E11, fill in the population density of each country. You find the density by dividing the population numbers in column B by the land area.
+
+Country	Population	Land Area (km2)	Growth	Density (people / km2)
+China	1,409,517,397	9,326,410		
+India	1,339,180,127	2,973,190		
+United States	324,459,463	9,147,593		
+Indonesia	263,991,379	1,811,569		
+Brazil	209,288,278	8,460,415		
+Pakistan	197,015,955	881,912		
+Nigeria	190,886,311	910,768		
+Bangladesh	164,669,751	130,168		
+Russia	143,989,754	16,377,742		
+Mexico	129,163,276	1,943,945		
+
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)	Growth	Density (people / km2)
+China	1,409,517,397	9,326,410	15,786,595	151
+India	1,339,180,127	2,973,190	14,998,817	450
+United States	324,459,463	9,147,593	3,633,946	35
+Indonesia	263,991,379	1,811,569	2,956,703	146
+Brazil	209,288,278	8,460,415	2,344,029	25
+Pakistan	197,015,955	881,912	2,206,579	223
+Nigeria	190,886,311	910,768	2,137,927	210
+Bangladesh	164,669,751	130,168	1,844,301	1,265
+Russia	143,989,754	16,377,742	1,612,685	9
+Mexico	129,163,276	1,943,945	1,446,629	66

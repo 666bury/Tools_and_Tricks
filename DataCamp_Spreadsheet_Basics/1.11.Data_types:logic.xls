@@ -1,0 +1,15 @@
+In the last exercise of this chapter, you'll see one more data type: logical.
+
+Actually, you've seen this data type before, when we used comparison operators. A logical cell can have two values: TRUE or FALSE. Logical cells will be aligned in the center. They can be used to express whether certain conditions are true or false.
+
+When you enter true or false in a cell, it's also recognized as a logical. Logicals are case insensitive, but Google Sheets will replace the value you entered by the capitalized logical: TRUE or FALSE.
+
+TASK
+In F2, fill in the value true. It shouldn't be a formula, so don't prepend the value by =. If you've used lower case letters (true), watch as Google Sheets replaces the value by the capitalized TRUE once you hit enter.
+Recall the comparison operators? You can use logicals in some of these as well. In F3, check whether TRUE is not equal to FALSE. It's a formula, so prepend it by =. You'll have to use the <> operator.
+
+Name	Weight (g)	KCal	Expires on	Price	
+Eggs	121	186	2018-01-21	$0.40	
+Sugar	125	484	2020-01-01	$0.20	
+Butter	65	466	2018-01-20	$2.00	
+Flour	190	692	2018-09-01	$0.30	

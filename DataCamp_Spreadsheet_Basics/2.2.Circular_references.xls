@@ -1,0 +1,22 @@
+As you saw in the previous exercise, when a referenced cell changed its value, the referencing cells update instantly.
+
+But what happens when the referencing cell and the referenced cell are the same? In other words, what happens if a cell references itself?
+
+In fact, this is called a circular reference: a cell that directly, or via a chain of other references, refers to itself. The following diagram illustrates 3 cases of circular references
+Google Sheets won't know how to deal with this by default, as it doesn't find a value to fill in. A #REF! error, or reference error, will appear.
+
+TASK
+In D2, change the value of the reference so the cell references to itself. You should see a #REF! error appear.
+You'll see that E2 currently refers to C2, and C2 holds a value. Now replace the value in C2 by a reference to E2. This way C2 references E2, which references C2, and so on. What do you see?
+
+Country	Population	Land Area (km2)		
+China	1,409,517,397	9,326,410	9,326,410	9,326,410
+India	1,339,180,127	2,973,190		
+United States	324,459,463	9,147,593		
+Indonesia	263,991,379	1,811,569		
+Brazil	209,288,278	8,460,415		
+Pakistan	197,015,955	881,912		
+Nigeria	190,886,311	910,768		
+Bangladesh	164,669,751	130,168		
+Russia	143,989,754	16,377,742		
+Mexico	129,163,276	1,943,945		

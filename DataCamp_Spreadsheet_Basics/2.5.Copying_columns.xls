@@ -1,0 +1,37 @@
+In this last exercise about copying cells, you'll copy columns of references all at once!
+
+To do this, you first need to select a column of cells instead of just one. Then move your mouse to the lower right corner until you see the "+"-sign, click and drag towards where you want to copy:
+
+TASK
+Start by filling in a reference to B2 in D2. Make sure to start the formula with a =.
+Copy D2 down to D11 vertically by dragging it downwards.
+Make sure D2:D11 is selected, copy this column one to the right to E2:E11. Have a look at the values in the new range.
+
+Country	Population	Land Area (km2)
+China	1,409,517,397	9,326,410
+India	1,339,180,127	2,973,190
+United States	324,459,463	9,147,593
+Indonesia	263,991,379	1,811,569
+Brazil	209,288,278	8,460,415
+Pakistan	197,015,955	881,912
+Nigeria	190,886,311	910,768
+Bangladesh	164,669,751	130,168
+Russia	143,989,754	16,377,742
+Mexico	129,163,276	1,943,945
+
+
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)		
+China	1,409,517,397	9,326,410	1,409,517,397	9,326,410
+India	1,339,180,127	2,973,190	1,339,180,127	2,973,190
+United States	324,459,463	9,147,593	324,459,463	9,147,593
+Indonesia	263,991,379	1,811,569	263,991,379	1,811,569
+Brazil	209,288,278	8,460,415	209,288,278	8,460,415
+Pakistan	197,015,955	881,912	197,015,955	881,912
+Nigeria	190,886,311	910,768	190,886,311	910,768
+Bangladesh	164,669,751	130,168	164,669,751	130,168
+Russia	143,989,754	16,377,742	143,989,754	16,377,742
+Mexico	129,163,276	1,943,945	129,163,276	1,943,945

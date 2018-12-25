@@ -1,0 +1,38 @@
+A reference can be partially absolute, where only the column or the row is absolute. Sometimes it can be useful to make a reference where the row reference is absolute and the column reference is relative.
+
+In the New York City streets analogy you saw in the previous exercise, this would be all houses on a particular street running from west to east.
+
+We keep the row constant by prepending only the row by a $, for example A$1.
+
+TASK
+Fill in E2:E11, the area relative to the world land area as percentage. Try to do this first by selecting column D2:D11, and copying it one column to the right by dragging from the lower right corner.
+Apparently, the values can't just be copied. You can solve this by locking only the row in D2 and copy that to D11. Then copy D2:D11 to column E again.
+
+Country	Population	Land Area (km2)	Relative population	Relative area
+China	1,409,517,397	9,326,410	19	
+India	1,339,180,127	2,973,190	18	
+United States	324,459,463	9,147,593	4	
+Indonesia	263,991,379	1,811,569	3	
+Brazil	209,288,278	8,460,415	3	
+Pakistan	197,015,955	881,912	3	
+Nigeria	190,886,311	910,768	3	
+Bangladesh	164,669,751	130,168	2	
+Russia	143,989,754	16,377,742	2	
+Mexico	129,163,276	1,943,945	2	
+World	7,550,262,101	148,940,000		
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)	Relative population	Relative area
+China	1,409,517,397	9,326,410	19	6
+India	1,339,180,127	2,973,190	18	2
+United States	324,459,463	9,147,593	4	6
+Indonesia	263,991,379	1,811,569	3	1
+Brazil	209,288,278	8,460,415	3	6
+Pakistan	197,015,955	881,912	3	1
+Nigeria	190,886,311	910,768	3	1
+Bangladesh	164,669,751	130,168	2	0
+Russia	143,989,754	16,377,742	2	11
+Mexico	129,163,276	1,943,945	2	1
+World	7,550,262,101	148,940,000		

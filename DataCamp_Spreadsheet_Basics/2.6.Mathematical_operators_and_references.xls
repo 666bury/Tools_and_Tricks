@@ -1,0 +1,38 @@
+It's time to set your referencing skills to good use. In the following exercises you'll see how to do calculations with references.
+
+You might wonder how Google Sheets calculates something like = A1 + 1. It might feel a bit weird to do mathematical operations on something that's not a number, like a reference. In fact, in this example Google Sheets will just take the value in A1, and add 1 to it. If A1 has the value of 3, for example, = A1 + 1 will be 4.
+
+If you've taken a DataCamp course on python or R before, this is similar to how variables work there.
+
+TASK
+Fill in the land area of China in miles in D2. To convert square kilometers to square miles, divide the values by 2.59. Use a reference to C2.
+Use the copying technique you learned in the previous exercises to fill down the square miles in D2:D11.
+
+Country	Population	Land Area (km2)	Land Area (mi2)
+China	1,409,517,397	9,326,410	
+India	1,339,180,127	2,973,190	
+United States	324,459,463	9,147,593	
+Indonesia	263,991,379	1,811,569	
+Brazil	209,288,278	8,460,415	
+Pakistan	197,015,955	881,912	
+Nigeria	190,886,311	910,768	
+Bangladesh	164,669,751	130,168	
+Russia	143,989,754	16,377,742	
+Mexico	129,163,276	1,943,945	
+
+
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)	Land Area (mi2)
+China	1,409,517,397	9,326,410	3,600,931
+India	1,339,180,127	2,973,190	1,147,950
+United States	324,459,463	9,147,593	3,531,889
+Indonesia	263,991,379	1,811,569	699,447
+Brazil	209,288,278	8,460,415	3,266,569
+Pakistan	197,015,955	881,912	340,507
+Nigeria	190,886,311	910,768	351,648
+Bangladesh	164,669,751	130,168	50,258
+Russia	143,989,754	16,377,742	6,323,453
+Mexico	129,163,276	1,943,945	750,558

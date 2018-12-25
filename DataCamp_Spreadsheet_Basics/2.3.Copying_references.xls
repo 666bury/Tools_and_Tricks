@@ -1,0 +1,37 @@
+Referencing becomes especially useful if you start copying the references around. When you copy formulas containing references to neighbouring cells, the references will shift along.
+
+An example: let's say you have = A1 in the cell with address B1. If you copy this cell to B2, the reference will change to = A2.
+
+You're going to be copying a lot of cells in the following exercises. So here's a little trick: to copy a cell to neighbouring cells, select the cell and move your mouse to the lower right corner. The cursor should change to a "+"-sign. Drag and drop to where you want to copy, as such:
+
+TASK
+In D2, fill in a formula with only a reference to C2. Remember to start with a =.
+Now use the trick shown above to copy this cell below until D11. In case you're not sure how: the animation might help you get on your way. You can copy the values all the way down to D11 in one go.
+
+Country	Population	Land Area (km2)	References
+China	1,409,517,397	9,326,410	
+India	1,339,180,127	2,973,190	
+United States	324,459,463	9,147,593	
+Indonesia	263,991,379	1,811,569	
+Brazil	209,288,278	8,460,415	
+Pakistan	197,015,955	881,912	
+Nigeria	190,886,311	910,768	
+Bangladesh	164,669,751	130,168	
+Russia	143,989,754	16,377,742	
+Mexico	129,163,276	1,943,945	
+
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)	References
+China	1,409,517,397	9,326,410	9,326,410
+India	1,339,180,127	2,973,190	2,973,190
+United States	324,459,463	9,147,593	9,147,593
+Indonesia	263,991,379	1,811,569	1,811,569
+Brazil	209,288,278	8,460,415	8,460,415
+Pakistan	197,015,955	881,912	881,912
+Nigeria	190,886,311	910,768	910,768
+Bangladesh	164,669,751	130,168	130,168
+Russia	143,989,754	16,377,742	16,377,742
+Mexico	129,163,276	1,943,945	1,943,945

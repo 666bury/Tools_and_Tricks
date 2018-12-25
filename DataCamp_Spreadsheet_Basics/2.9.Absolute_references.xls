@@ -1,0 +1,42 @@
+The references you used up until now are called relative references. They are called this way because they change when you copy them to other locations. There's another type of reference called absolute reference.
+
+There are times when you don't want references to change when you copy them. Think of it as values that have a fixed location, like addresses of important buildings in a street grid, for example the Empire State Building in New York City.
+
+An absolute reference won't change its value when you copy it to another cell. You can create absolute references by prepending columns and rows by the dollar sign $. For example, = $A$1 is an absolute reference to A1.
+
+
+TASK
+Fill in D2 with the relative population of China, compared to the world: = B2 / B12 * 100. We multiply by 100 to get a percentage. Now copy this by dragging towards D11. You'll see some #DIV/0! errors. Google Sheets tries to divide by zero, because you use references to empty cells.
+Remove the values you just copied and change D2. Make B12 an absolute reference to that cell. Lock the row and the column.
+Now fill D2:D11 up again by copying from D2.
+
+Country	Population	Land Area (km2)	Relative population
+China	1,409,517,397	9,326,410	
+India	1,339,180,127	2,973,190	
+United States	324,459,463	9,147,593	
+Indonesia	263,991,379	1,811,569	
+Brazil	209,288,278	8,460,415	
+Pakistan	197,015,955	881,912	
+Nigeria	190,886,311	910,768	
+Bangladesh	164,669,751	130,168	
+Russia	143,989,754	16,377,742	
+Mexico	129,163,276	1,943,945	
+World	7,550,262,101	148,940,000	
+
+
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)	Relative population
+China	1,409,517,397	9,326,410	19
+India	1,339,180,127	2,973,190	18
+United States	324,459,463	9,147,593	4
+Indonesia	263,991,379	1,811,569	3
+Brazil	209,288,278	8,460,415	3
+Pakistan	197,015,955	881,912	3
+Nigeria	190,886,311	910,768	3
+Bangladesh	164,669,751	130,168	2
+Russia	143,989,754	16,377,742	2
+Mexico	129,163,276	1,943,945	2
+World	7,550,262,101	148,940,000	

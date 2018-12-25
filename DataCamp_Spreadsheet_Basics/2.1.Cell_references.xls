@@ -1,0 +1,26 @@
+The previous exercises might have felt a bit unproductive when you had to type a lot of values. This chapter will teach you how to use references to tackle this problem. After you've gone through this chapter, expect your spreadsheet productivity to boost through the roof.
+
+A reference lets you refer to another cell value in your workbook. To make a cell reference, use the address to that cell in a formula.
+
+For example, you could make a reference to cell A1 in another cell: = A1. The cell will then always be the same as what's in A1. As cell references are case insensitive, = a1 would be fine as well.
+
+Have a look at the data to the right. It shows you demo- and geographic information about the 10 most populous countries in the world. Now, get to work!
+
+TASK
+Change the value in D2 to a formula with only a cell reference to C2. Remember to start the formula with =.
+Change the value in E2 to a formula with only a cell reference to D2. Again, remember to prepend the value by a =.
+Now change C2 to 100. Do you see what happens to D2 and E2?
+Reminder: hit the Enter key to finish editing the last cell before clicking 'Check Answer'
+
+Country	Population	Land Area (km2)
+China	1,409,517,397	9,326,410
+India	1,339,180,127	2,973,190
+United States	324,459,463	9,147,593
+Indonesia	263,991,379	1,811,569
+Brazil	209,288,278	8,460,415
+Pakistan	197,015,955	881,912
+Nigeria	190,886,311	910,768
+Bangladesh	164,669,751	130,168
+Russia	143,989,754	16,377,742
+Mexico	129,163,276	1,943,945
+

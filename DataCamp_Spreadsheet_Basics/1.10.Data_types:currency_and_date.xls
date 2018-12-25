@@ -1,0 +1,15 @@
+Moving on to some other data types, currency and date:
+
+currency: all values that reflect a price or amount of money. Starts with the currency sign (e.g. $, £, €)
+date: a value that stands for a period in time (e.g. 2018-01-18, 2018-03-20 18:30). In this course we're using the Year-Month-Day format.
+Google Sheets tries to interpret the correct data type by default. For example, if you start a cell with $, it will be interpreted as a currency. Sometimes, it might be necessary to manually change a data type. You do this by selecting the cells you want to change and click on Format > Number in the menu bar:
+
+TASK
+Select the values in D2:D5. These currently have type date. Using the format menu, change the format to use / instead of - to separate the date parts. Use the 'More date and time formats...' option in 'Format > Number > More formats'.
+Select the values in E2:E5. They currently have type currency, using the dollar $ sign. Change the format of these values to currency (rounded) You can use the format menu, or any other shortcuts you'd like.
+
+Name	Weight (g)	KCal	Expires on	Price
+Eggs	121	186	1/21/2018	$0
+Sugar	125	484	1/1/2020	$0
+Butter	65	466	1/20/2018	$2
+Flour	190	692	9/1/2018	$0

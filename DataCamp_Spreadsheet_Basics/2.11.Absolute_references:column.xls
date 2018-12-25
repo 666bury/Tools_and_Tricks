@@ -1,0 +1,35 @@
+In other cases, it can be useful to make a reference where the column reference is absolute and the row reference is relative. In the New York City streets analogy, this would be all houses on a particular avenue running from north to south.
+
+We keep the column constant by prepending only the column by a $, for example $A1.
+
+TASK
+Fill in F2:F11, the population density per square mile. Try to do this first by selecting column E2:E11, and copying it one column to the right by dragging from the lower right corner.
+Again, copying these values doesn't give the expected values. You can solve this by locking only the population column (B) in E2:E11 and repeating the copying process. Try this now!
+
+Country	Population	Land Area (km2)	Land Area (mi2)	Density (km2)	Density (mi2)
+China	1,409,517,397	9,326,410	3,600,931	151	
+India	1,339,180,127	2,973,190	1,147,950	450	
+United States	324,459,463	9,147,593	3,531,889	35	
+Indonesia	263,991,379	1,811,569	699,447	146	
+Brazil	209,288,278	8,460,415	3,266,569	25	
+Pakistan	197,015,955	881,912	340,507	223	
+Nigeria	190,886,311	910,768	351,648	210	
+Bangladesh	164,669,751	130,168	50,258	1,265	
+Russia	143,989,754	16,377,742	6,323,453	9	
+Mexico	129,163,276	1,943,945	750,558	66	
+World	7,550,262,101	148,940,000			
+
+
+SOLUTION
+Population	Land Area (km2)	Land Area (mi2)	Density (km2)	Density (mi2)
+1,409,517,397	9,326,410	3,600,931	151	391
+1,339,180,127	2,973,190	1,147,950	450	1,167
+324,459,463	9,147,593	3,531,889	35	92
+263,991,379	1,811,569	699,447	146	377
+209,288,278	8,460,415	3,266,569	25	64
+197,015,955	881,912	340,507	223	579
+190,886,311	910,768	351,648	210	543
+164,669,751	130,168	50,258	1,265	3,276
+143,989,754	16,377,742	6,323,453	9	23
+129,163,276	1,943,945	750,558	66	172
+7,550,262,101	148,940,000			

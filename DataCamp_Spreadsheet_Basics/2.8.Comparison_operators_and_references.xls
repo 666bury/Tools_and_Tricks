@@ -1,0 +1,36 @@
+The comparison operators we discussed in the previous chapter can also be used with references.
+
+For example, if A1 holds the value 3 and another cell has =A1 > 2, it will evaluate to the logical value TRUE.
+
+TASK
+In F2:F11, fill in a column which is TRUE each time the density is bigger than the world average and FALSE otherwise. The world average is 51.
+In G2:G11, fill in a column which is TRUE each time the continent is equal to "Asia" and FALSE otherwise. To know whether something is equal to some text, you can use = ... = "some text", of course you need to fill in the .... Watch out, you need one = to start the formula and another in the middle to make the comparison.
+
+Country	Population	Land Area (km2)	Continent	Density	Over Avg	In Asia
+China	1,409,517,397	9,326,410	Asia	151		
+India	1,339,180,127	2,973,190	Asia	450		
+United States	324,459,463	9,147,593	North-America	35		
+Indonesia	263,991,379	1,811,569	Asia	146		
+Brazil	209,288,278	8,460,415	South-America	25		
+Pakistan	197,015,955	881,912	Asia	223		
+Nigeria	190,886,311	910,768	Africa	210		
+Bangladesh	164,669,751	130,168	Asia	1,265		
+Russia	143,989,754	16,377,742	Europe	9		
+Mexico	129,163,276	1,943,945	North-America	66		
+
+
+
+
+
+SOLUTION
+Country	Population	Land Area (km2)	Continent	Density	Over Avg	In Asia
+China	1,409,517,397	9,326,410	Asia	151	TRUE	TRUE
+India	1,339,180,127	2,973,190	Asia	450	TRUE	TRUE
+United States	324,459,463	9,147,593	North-America	35	FALSE	FALSE
+Indonesia	263,991,379	1,811,569	Asia	146	TRUE	TRUE
+Brazil	209,288,278	8,460,415	South-America	25	FALSE	FALSE
+Pakistan	197,015,955	881,912	Asia	223	TRUE	TRUE
+Nigeria	190,886,311	910,768	Africa	210	TRUE	FALSE
+Bangladesh	164,669,751	130,168	Asia	1,265	TRUE	TRUE
+Russia	143,989,754	16,377,742	Europe	9	FALSE	FALSE
+Mexico	129,163,276	1,943,945	North-America	66	TRUE	FALSE
