@@ -1,0 +1,17 @@
+You might've felt filling in a lot of values felt tedious at some points, but we'll learn some neat tricks in the next chapter that will increase your productivity.
+
+For the remainder of this chapter, we're going to discuss data types. Each cell value in Google Sheets has a type. In the data we've seen: text, number, date, currency and logical. Let's look at two:
+
+text: plain text, will be used if there's no other type recognized. You can force this with ', e.g.: 'text, or '2. Aligned to the left by default.
+numbers: if you enter numbers (without using '), they will automatically have this type. Aligned to the right by default.
+Alignment reflects the placement of text in a cell. This picture explains it all:
+
+TASK
+Let's do something silly! In A2 change the value by a formula, starting with = as always. Now write "Eggs", those quotes are important. Then add 1 to it using the + operator. The cell will contain a #VALUE! error, meaning the value could not be calculated. Hover over the cell to see the details. Does this error seem fair?
+Fill in '= 0.40 * 21% in F2, mind the ' in front. Spaces are important here. By using the single quote, you ensure the formula will not be calculated.
+
+Name	Weight (g)	KCal	Expires on	Price	
+Eggs	121	186	2018-01-21	$0.40	
+Sugar	125	484	2020-01-01	$0.20	
+Butter	65	466	2018-01-20	$2.00	
+Flour	190	692	2018-09-01	$0.30	
