@@ -1,0 +1,2 @@
+This course will expand your Google Sheets vocabulary. You'll dive deeper into data types, practice manipulating numeric and logical data, explore missing data and error types, and calculate some summary statistics. As you go, you'll explore datasets on 100m sprint world records, asteroid close encounters, benefit claims, and butterflies.
+
