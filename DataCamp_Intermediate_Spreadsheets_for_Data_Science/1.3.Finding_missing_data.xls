@@ -1,0 +1,67 @@
+ISBLANK() accepts a cell address and returns TRUE if that cell is empty. This provides a useful way of checking for missing data.
+
+TASK
+Some athletes have gone missing! An extra column, "Athlete Is Blank?" has been added to the dataset.
+
+Use the ISBLANK() function in column H to determine which values in the dataset have missing athletes.
+In cell A23, call FILTER() to filter the dataset to show only the rows with missing athletes.
+    Pass the range of all the data from A2 to H20 as the first argument.
+    The 2nd argument should be the logical condition H2 to H20.
+
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Athlete Is Blank?
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	
+9.830	1.0		Canada	Rome, Italy	1987-08-30	TRUE	
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	
+9.790	1.1		Canada	Seoul, South Korea	1988-09-24	TRUE	
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	
+9.835	0.7		Canada	Atlanta, USA	1996-07-27	FALSE	
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	
+9.740	1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	
+9.683	0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	
+							
+Time	Wind	Athlete	Nationality	Location of race	Date	Is Cheater?	Athlete Is Blank?
+
+
+
+
+
+
+
+SOLUTION
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Athlete Is Blank?
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	FALSE
+9.830	1.0		Canada	Rome, Italy	1987-08-30	TRUE	TRUE
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	FALSE
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	FALSE
+9.790	1.1		Canada	Seoul, South Korea	1988-09-24	TRUE	TRUE
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	FALSE
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	FALSE
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	FALSE
+9.835	0.7		Canada	Atlanta, USA	1996-07-27	FALSE	TRUE
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	FALSE
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	FALSE
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	FALSE
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	FALSE
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	FALSE
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	FALSE
+9.740	1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	FALSE
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	FALSE
+9.683	0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	FALSE
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	FALSE
+
+
+Time	Wind	Athlete	Nationality	Location of race	Date	Is Cheater?	Athlete Is Blank?
+9.830	1.0		Canada	Rome, Italy	1987-08-30	TRUE	TRUE
+9.790	1.1		Canada	Seoul, South Korea	1988-09-24	TRUE	TRUE
+9.835	0.7		Canada	Atlanta, USA	1996-07-27	FALSE	TRUE
+

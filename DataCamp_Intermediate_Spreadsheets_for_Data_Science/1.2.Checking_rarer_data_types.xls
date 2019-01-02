@@ -1,0 +1,50 @@
+Google Sheets also allows checks for rarer data types beyond number, text, date, and logical. In this exercise you'll use ISURL() to check for website URLs, and ISFORMULA() to check for cells that contain formulas.
+
+ISURL() checks that the text in a cell takes the form of a URL. This includes text that starts with a protocol, like http://, ftp:// and mailto:, and guesses at other text like somewebsite.com.
+
+To make the text into a clickable hyperlink, use HYPERLINK(). This takes the address of a cell containing a URL and optionally the address of a cell containing the text to display, for example HYPERLINK(A1, B1).
+
+ISFORMULA() takes the address of a cell and returns TRUE when that cell contains a formula. For blank cells and cells with fixed values, it returns FALSE.
+
+TASK
+The column "Olympic team site" contains a URL to the Olympic team for the athlete's nation. In cell I2, there is a formula to create a hyperlink to the USA site.
+
+Copy the formula in I2 down as far as I20.
+In cell A21, use =ISURL(A2) to check if this is a URL.
+Copy this formula right as far as I21.
+On row 22, use =ISFORMULA() to check if the cells from A2 to I2 contain formulas.
+
+
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Olympic team site	Hyperlinked Nationality
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	https://www.teamusa.org	United States
+9.830	1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE	https://olympic.ca	
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	https://www.teamusa.org	
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	https://www.teamusa.org	
+9.790	1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE	https://olympic.ca	
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	https://www.teamusa.org	
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	https://www.teamusa.org	
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	https://www.teamusa.org	
+9.835	0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE	https://olympic.ca	
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	https://www.teamusa.org	
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	https://www.teamusa.org	
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	http://www.jamaicaolympics.com	
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	https://www.teamusa.org	
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	http://www.jamaicaolympics.com	
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	http://www.jamaicaolympics.com	
+9.740	1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	http://www.jamaicaolympics.com	
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	http://www.jamaicaolympics.com	
+9.683	0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	http://www.jamaicaolympics.com	
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	http://www.jamaicaolympics.com	
+
+
+
+
+
+
+
+
+
+
+
+
+SOLUTION

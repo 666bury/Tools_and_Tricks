@@ -1,0 +1,55 @@
+One of the sad realities of being a data scientist is that you get handed a lot of awful datasets. If data has been manually entered, then it is really common to have typos, which can give the data the wrong type! You can use the IF functions to detect if your data has been correctly entered.
+
+ISDATE() accepts a cell address and returns TRUE if that cell contains a date.
+
+TASK
+In cell H2, check if the corresponding Date really is a date.
+Copy the formula down the column.
+
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Is Date?
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	
+9.830	1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE	
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	
+9.790	1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE	
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	
+9.835	0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE	
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	
+9.740	1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	
+9.683	0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	
+
+
+
+
+
+
+#SOLUTION
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Is Date?
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	TRUE
+9.830	1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE	TRUE
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	TRUE
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	TRUE
+9.790	1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE	TRUE
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	TRUE
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	FALSE
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	TRUE
+9.835	0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE	TRUE
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	TRUE
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	TRUE
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	TRUE
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	TRUE
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	TRUE
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	TRUE
+9.740	1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	TRUE
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	TRUE
+9.683	0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	TRUE
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	TRUE

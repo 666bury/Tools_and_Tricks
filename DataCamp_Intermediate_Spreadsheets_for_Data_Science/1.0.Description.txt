@@ -1,0 +1,1 @@
+In which you learn to interrogate cells to determine the data type of their contents, and to convert between data types.
