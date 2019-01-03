@@ -1,0 +1,55 @@
+Sometimes numbers are more easily comprehended as a percentage. To convert a number to a percent, you call TO_PERCENT() passing a cell address.
+
+This exercise requires the use of absolute cell addresses that don't change when you copy a formula. Recall from Spreadsheet Basics that you can write an absolute address by prefixing it with dollar signs. For example, $Z$100 is the absolute equivalent of Z100.
+
+TASK
+In H2, calculate the time for this record (A2) divided by the fastest time (A20); the latter written in absolute form.
+Copy the formula down to row 20.
+In column I, convert the ratios to percentages using TO_PERCENT().
+
+Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Ratio of best time	Percentage of best time
+1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE		
+1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE		
+1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE		
+1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE		
+1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE		
+1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE		
+1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE		
+1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE		
+0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE		
+0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE		
+2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE		
+1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE		
+1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE		
+1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE		
+1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE		
+1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE		
+1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE		
+0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE		
+0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE		
+
+
+
+
+
+SOLUTION
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Ratio of best time	Percentage of best time
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	1.037400752	104%
+9.830	1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE	1.026953615	103%
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	1.037400752	104%
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	1.037400752	104%
+9.790	1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE	1.02277476	102%
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	1.034266611	103%
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	1.030087756	103%
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	1.029043042	103%
+9.835	0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE	1.027475972	103%
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	1.02277476	102%
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	1.021730046	102%
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	1.020476389	102%
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	1.020267447	102%
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	1.019954033	102%
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	1.019849561	102%
+9.740	1.7	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	1.017551191	102%
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	1.015461763	102%
+9.683	0.0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	1.011596323	101%
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	1	100%

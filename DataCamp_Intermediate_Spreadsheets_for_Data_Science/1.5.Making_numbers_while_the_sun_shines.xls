@@ -1,0 +1,55 @@
+Here, you'll use ISNUMBER() to find which cells are really numbers, then N() to convert all values in a column to be numbers.
+
+TASK
+A wind speed value is not really a number.
+
+In H2, call ISNUMBER() to check if cell B2 is a number.
+Copy the formula down to H20.
+In column I, use N() to convert the values from column B to numbers.
+In column J, use ISNUMBER() to confirm that column I contains only numbers.
+
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Is Wind numeric?	Wind as number	Is Wind numeric now?
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE			
+9.830	1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE			
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE			
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE			
+9.790	1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE			
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE			
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE			
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE			
+9.835	0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE			
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE			
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE			
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE			
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE			
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE			
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE			
+9.740	0.0	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE			
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE			
+9.683	0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE			
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE			
+
+
+
+
+SOLUTION
+Time (s)	Wind (m/s)	Athlete	Nationality	Location of race	Date	Is Cheater?	Is Wind numeric?	Wind as number	Is Wind numeric now?
+9.930	1.4	Calvin Smith	United States	Colorado Springs, USA	1983-07-03	FALSE	TRUE	1.4	TRUE
+9.830	1.0	Ben Johnson	Canada	Rome, Italy	1987-08-30	TRUE	TRUE	1	TRUE
+9.930	1.1	Carl Lewis	United States	Rome, Italy	1987-08-30	FALSE	TRUE	1.1	TRUE
+9.930	1.1	Carl Lewis	United States	Zürich, Switzerland	1988-08-17	FALSE	TRUE	1.1	TRUE
+9.790	1.1	Ben Johnson	Canada	Seoul, South Korea	1988-09-24	TRUE	TRUE	1.1	TRUE
+9.900	1.9	Leroy Burrell	United States	New York, USA	1991-06-14	FALSE	TRUE	1.9	TRUE
+9.860	1.0	Carl Lewis	United States	Tokyo, Japan	1991-O8-25	FALSE	TRUE	1	TRUE
+9.850	1.2	Leroy Burrell	United States	Lausanne, Switzerland	1994-07-06	FALSE	TRUE	1.2	TRUE
+9.835	0.7	Donovan Bailey	Canada	Atlanta, USA	1996-07-27	FALSE	TRUE	0.7	TRUE
+9.790	0.1	Maurice Greene	United States	Athens, Greece	1999-06-16	FALSE	TRUE	0.1	TRUE
+9.780	2.0	Tim Montgomery	United States	Paris, France	2002-09-14	TRUE	TRUE	2	TRUE
+9.768	1.6	Asafa Powell	Jamaica	Athens, Greece	2005-06-14	FALSE	TRUE	1.6	TRUE
+9.766	1.7	Justin Gatlin	United States	Doha, Qatar	2006-05-12	TRUE	TRUE	1.7	TRUE
+9.763	1.5	Asafa Powell	Jamaica	Gateshead, England	2006-06-11	FALSE	TRUE	1.5	TRUE
+9.762	1.0	Asafa Powell	Jamaica	Zürich, Switzerland	2006-08-18	FALSE	TRUE	1	TRUE
+9.740	0.0	Asafa Powell	Jamaica	Rieti, Italy	2007-09-09	FALSE	FALSE	0	TRUE
+9.720	1.7	Usain Bolt	Jamaica	New York, USA	2008-05-31	FALSE	TRUE	1.7	TRUE
+9.683	0	Usain Bolt	Jamaica	Beijing, China	2008-08-16	FALSE	TRUE	0	TRUE
+9.572	0.9	Usain Bolt	Jamaica	Berlin, Germany	2009-08-16	FALSE	TRUE	0.9	TRUE
