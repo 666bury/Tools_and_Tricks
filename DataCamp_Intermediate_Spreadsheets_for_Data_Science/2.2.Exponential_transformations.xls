@@ -1,0 +1,30 @@
+To undo the logarithmic transformations from the last exercise, you need to perform an exponential transformation.
+
+    The "power of" operator, ^, raises a number to a power. For example, =10 ^ A1 is the opposite of =LOG10(A1).
+    EXP() handles the special case of raising Euler's number to a particular power, and is the opposite of =LN().
+
+TASK
+In column K, retrieve the nominal geocentric distance by calculating 10 to the power of the values in column I.
+In column L, do the same by calculating the natural exponent of the values in column J.
+
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Nominal geocentric distance (AU)	Log base 10 NGD	Natural log NGD	10 ^ (Log base 10 NGD)	Exp (natural log NGD)
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461	0.0002560196868	-3.591726638	-8.270256215		
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798	0.0006697956297	-3.174057691	-7.308537922		
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956	0.0007205984918	-3.142306651	-7.235428453		
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952	0.001572214891	-2.803488095	-6.455269895		
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659	0.001584247148	-2.800177066	-6.44764597		
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2	0.001629033882	-2.788069883	-6.419768151		
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724	0.00163505001	-2.786468959	-6.416081888		
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125	0.001663125276	-2.779075036	-6.39905675		
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126	0.001979974706	-2.703340358	-6.224671209		
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953	0.002222625218	-2.653133762	-6.109066251		
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556	0.002240673603	-2.649621402	-6.100978743		
+											
+1 AU in km	149597870.7										
+
+
+
+
+
+
+SOLUTION
