@@ -1,0 +1,49 @@
+Often, numbers are easier to read if you limit how precisely they are written. For example, 75 is easier to read than 74.9729526456456.
+
+ROUND() lets you round numbers to a specified number of decimal places.
+
+    ROUND(A1) rounds the number in cell A1 to the nearest whole number.
+    ROUND(A1, 3) rounds it to the nearest thousandth.
+    ROUND(A1, -3) rounds it to the nearest thousand.
+
+TASK
+In column H, round the aphelion to the nearest whole number.
+In column I, round the perihelion to the nearest tenth.
+In column J, round the upper bound of the size to the nearest hundred.
+
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Aphelion, rounded	Perihelion, rounded to nearest tenth	Size upper bound, rounded to nearest 100
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461			
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798			
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956			
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952			
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659			
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2			
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724			
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125			
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126			
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953			
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556			
+									
+1 AU in km	149597870.7								
+
+
+
+
+
+
+
+SOLUTION
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Aphelion, rounded	Perihelion, rounded to nearest tenth	Size upper bound, rounded to nearest 100
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461	1	0.7	300
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798	1	0.8	200
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956	1	1	100
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952	3	0.6	400
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659	2	0.7	400
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2	2	0.2	800
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724	1	0.8	400
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125	3	0.9	1500
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126	2	0.8	400
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953	4	0.7	300
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556	1	0.8	200
+									
+1 AU in km	149597870.7								

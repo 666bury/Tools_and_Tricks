@@ -1,0 +1,52 @@
+You can generate random numbers from a variety of statistical distributions in addition to the uniform distribution. Unfortunately, it takes a sneaky trick!
+
+First, you generate a uniform random number between 0 and 1 using RAND(). Then you apply the inverse cumulative distribution function for the distribution you are interested in. Don't worry, it sounds trickier than it is.
+
+As an example, to generate random numbers from a normal distribution with mean 3 and standard deviation 2, you would use =NORMINV(RAND(), 3, 2).
+
+There are many other inverse cumulative distribution functions available: you can repeat that same code swapping FINV() for the F distribution, BETAINV() for the beta distribution, and so on.
+
+TASK
+In column H, generate normally distributed random geocentric distances with the mean taken from column C and a standard deviation of 1000.
+In column I, generate beta distributed random asteroid sizes.
+Call BETAINV(), passing RAND() as the first argument.
+Set the second and third "shape" arguments to 2.
+Set the fourth and fifth "bound" arguments to the asteroid lower and upper size estimates.
+
+Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Normal random geocentric distance	Beta random size
+2029-04-13	38300	270	325	1.0985	0.7461		
+2129-10-19	100200	75	170	1.0174	0.798		
+2041-04-08	107800	50	120	1.215	0.9956		
+2101-01-02	235200	170	370	2.5556	0.5952		
+2075-11-08	237000	320	400	1.6556	0.659		
+2140-12-01	243700	370	840	1.6229	0.2		
+2087-10-26	244600	190	420	1.3834	0.7724		
+2028-06-26	248800	700	1500	2.5114	0.9125		
+2148-01-22	296200	170	370	2.3479	0.8126		
+2065-05-28	332500	190	250	4.2823	0.6953		
+2146-03-23	335200	75	170	1.3458	0.7556		
+							
+149597870.7							
+
+
+
+
+
+
+
+
+SOLUTION
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Normal random geocentric distance	Beta random size
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461	37918.98772	305.2752323
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798	100192.8214	156.5072978
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956	107873.372	92.10339471
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952	235188.3709	344.6105925
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659	235171.8551	389.6782569
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2	244665.695	554.8080708
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724	244031.4414	258.4474077
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125	250696.7512	1299.04692
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126	295209.2738	265.483064
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953	333557.0088	218.3434104
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556	335818.688	97.01362665
+								
+1 AU in km	149597870.7							

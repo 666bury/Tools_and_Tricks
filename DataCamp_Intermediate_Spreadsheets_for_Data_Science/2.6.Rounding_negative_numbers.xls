@@ -1,0 +1,49 @@
+FLOOR() and CEILING() will round negative numbers towards or away from negative infinity. That is, FLOOR(-1.5) is -2 and CEILING(-1.5) is -1.
+
+Sometimes you may wish to round them towards or away from zero.
+
+Google Sheets has two related functions called FLOOR.MATH() and CEILING.MATH(). When given one or two arguments, they behave in the same way as FLOOR() and CEILING() respectively. However, you can pass the value 1 to a third argument to make them round towards or away from zero.
+
+That is, FLOOR.MATH(-1.5, , 1) is -1 and CEILING.MATH(-1.5, , 1) is -2.
+
+TASK
+In column H, take the perihelion and subtract the aphelion (column G minus column F) to create some negative numbers.
+In column I, use FLOOR.MATH() to round those differences to the next whole number towards zero.
+In column J, use CEILING.MATH() to round those differences to the next tenth away from zero.
+
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Perihelion minus aphelion	Toward zero	Away from zero
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461			
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798			
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956			
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952			
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659			
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2			
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724			
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125			
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126			
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953			
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556			
+									
+1 AU in km	149597870.7								
+
+
+
+
+
+
+
+SOLUTION
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Perihelion minus aphelion	Toward zero	Away from zero
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461	-0.3524	0	-0.4
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798	-0.2194	0	-0.3
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956	-0.2194	0	-0.3
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952	-1.9604	-1	-2
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659	-0.9966	0	-1
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2	-1.4229	-1	-1.5
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724	-0.611	0	-0.7
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125	-1.5989	-1	-1.6
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126	-1.5353	-1	-1.6
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953	-3.587	-3	-3.6
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556	-0.5902	0	-0.6
+									
+1 AU in km	149597870.7								

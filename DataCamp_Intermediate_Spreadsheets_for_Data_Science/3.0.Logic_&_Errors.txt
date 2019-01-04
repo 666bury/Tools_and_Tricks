@@ -1,0 +1,1 @@
+In which you learn how to work with logical data consisting of TRUE and FALSE values, and how to handle missing values and errors.

@@ -1,0 +1,45 @@
+Sometimes you always want to round a value down (towards negative infinity), or always round upwards (towards infinity). You can do this using
+
+FLOOR(), which rounds down, and
+CEILING(), which round up.
+Both functions take a second argument that specifies the multiple to round to. For example, FLOOR(A1, 0.01) rounds the number in cell A1 down to the next lowest hundredth. If this argument is omitted, it rounds down to the nearest whole number.
+
+TASK
+In column H, round the aphelion down to the nearest whole number.
+In column I, round the perihelion up to the next tenth.
+
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Floor of Aphelion	Ceiling of Perihelion
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461		
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798		
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956		
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952		
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659		
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2		
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724		
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125		
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126		
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953		
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556		
+								
+1 AU in km	149597870.7							
+
+
+
+
+
+SOLUTION
+Asteroid name	Date of closest approach	Nominal geocentric distance (km)	Size (m, lower)	Size (m, upper)	Aphelion (AU)	Perihelion (AU)	Floor of Aphelion	Ceiling of Perihelion
+99942 Apophis	2029-04-13	38300	270	325	1.0985	0.7461	1	0.8
+2007 UW1	2129-10-19	100200	75	170	1.0174	0.798	1	0.8
+2012 UE34	2041-04-08	107800	50	120	1.215	0.9956	1	1
+(456938) 2007 YV56	2101-01-02	235200	170	370	2.5556	0.5952	2	0.6
+(308635) 2005 YU55	2075-11-08	237000	320	400	1.6556	0.659	1	0.7
+(153201) 2000 WO107	2140-12-01	243700	370	840	1.6229	0.2	1	0.2
+2011 WL2	2087-10-26	244600	190	420	1.3834	0.7724	1	0.8
+(153814) 2001 WN5	2028-06-26	248800	700	1500	2.5114	0.9125	2	1
+(85640) 1998 OX4	2148-01-22	296200	170	370	2.3479	0.8126	2	0.9
+2005 WY55	2065-05-28	332500	190	250	4.2823	0.6953	4	0.7
+2009 DO111	2146-03-23	335200	75	170	1.3458	0.7556	1	0.8
+								
+1 AU in km	149597870.7							
+
